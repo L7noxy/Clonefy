@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { FaHome, FaSearch, FaBook } from 'react-icons/fa'
 import "./Sidebar.css";
+import TelaCheia from './TelaCheia.jsx';
 
 function Sidebar() {
   return (
@@ -19,6 +20,9 @@ function Sidebar() {
           <FaBook className="sidebar-icon" />
           Sua Biblioteca
         </Link>
+        <button>
+          <TelaCheia />
+        </button>
       </nav>
     </div>
   )

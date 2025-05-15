@@ -25,6 +25,7 @@ function Player({ currentTrack }) {
           </div>
           <button onClick={togglePlay}>{isPlaying ? 'Pause' : 'Play'}</button>
           <audio ref={audioRef} src={currentTrack.url} />
+
         </>
       )}
     </div>
