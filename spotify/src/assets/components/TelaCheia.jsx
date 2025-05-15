@@ -1,4 +1,6 @@
 import React from "react";
+import { RiFullscreenFill } from "react-icons/ri";
+import "./TelaCheia.css"
 
 const TelaCheia = () => {
     const ativarTelaCheia = () => {
@@ -7,37 +9,20 @@ const TelaCheia = () => {
         if (elem.requestFullscreen) {
             elem.requestFullscreen();
         } else if (elem.webkitRequestFullscreen) {
-            elem.webkitRequestFullscreen(); // Safari
+            elem.webkitRequestFullscreen();
         } else if (elem.msRequestFullscreen) {
-            elem.msRequestFullscreen(); // IE/Edge
+            elem.msRequestFullscreen(); 
         }
     };
 
     return (
-        <div style={styles.container}>
-            <button style={styles.botao} onClick={ativarTelaCheia}>
-                Ativar Tela Cheia
+        <div className="tela-cheia">
+            <button className="ativarTelaCheia" onClick={ativarTelaCheia}>
+                <RiFullscreenFill  size={25} color="white"/>
             </button>
         </div>
 
     );
-};
-
-const styles = {
-    container: {
-        height: "auto",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-    },
-    botao: {
-        padding: "12px 24px",
-        fontSize: "16px",
-        cursor: "pointer",
-        backgroundColor: "#fff",
-        border: "none",
-        borderRadius: "8px",
-    },
 };
 
 export default TelaCheia;
