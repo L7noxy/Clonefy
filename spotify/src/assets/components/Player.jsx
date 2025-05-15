@@ -1,4 +1,5 @@
 import { useState, useRef } from 'react'
+import "./Player.css"
 
 function Player({ currentTrack }) {
   const [isPlaying, setIsPlaying] = useState(false)

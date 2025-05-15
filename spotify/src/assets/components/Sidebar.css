@@ -1,0 +1,31 @@
+  
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #ff0000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidebar h2 {
+  font-size: 2rem;
+  color: #1db954;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.sidebar nav a {
+  color: white;
+  text-decoration: none;
+  margin: 20px 0;
+  font-size: 1.1rem;
+}
+
+.sidebar nav a:hover {
+  color: #1db954;
+}

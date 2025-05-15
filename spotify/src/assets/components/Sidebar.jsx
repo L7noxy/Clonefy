@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { FaHome, FaSearch, FaBook } from 'react-icons/fa'
+import "./Sidebar.css";
 
 function Sidebar() {
   return (

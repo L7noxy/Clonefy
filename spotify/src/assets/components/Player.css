@@ -1,0 +1,30 @@
+.player {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1f1f1f;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #333;
+}
+
+.player img {
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.player button {
+  background-color: #1db954;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.player button:hover {
+  background-color: #1aa34a;
+}
