@@ -1,4 +1,5 @@
 import TrackItem from './TrackItem'
+import './TrackList.css'
 
 function TrackList({ tracks, onPlay }) {
   return (

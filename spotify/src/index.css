@@ -10,8 +10,7 @@ body {
   color: white;
   overflow-x: hidden;
 }
-  
-/* Estilos da área principal */
+
 .main-content {
   margin-left: 250px;
   padding: 30px;
@@ -50,17 +49,6 @@ body {
 .track-item p {
   color: #b3b3b3;
   font-size: 1rem;
-}
-
-/* Estilo da página Home */
-.home h1 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-}
-
-.home h3 {
-  color: #b3b3b3;
-  margin-bottom: 20px;
 }
 
 /* Estilo da página Search */

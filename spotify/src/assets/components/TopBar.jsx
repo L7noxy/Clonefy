@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { FaSearch, FaUserCircle } from 'react-icons/fa'
+import './TopBar.css'
 
 function TopBar() {
   const [searchQuery, setSearchQuery] = useState('')

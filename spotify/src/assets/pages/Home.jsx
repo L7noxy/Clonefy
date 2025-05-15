@@ -1,5 +1,6 @@
 import { songs } from '../data/songs'
 import TrackList from '../components/TrackList'
+import './Home.css'
 
 function Home() {
   const handlePlay = (track) => {
