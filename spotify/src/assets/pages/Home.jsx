@@ -1,19 +1,18 @@
-import { songs } from '../data/songs'
-import TrackList from '../components/TrackList'
-import './Home.css'
+import Sidebar from '../components/Sidebar';
+import Header from '../components/Header';
+import Content from '../components/Content';
+import Footer from '../components/Footer';
+import './Home.css';
 
-function Home() {
-  const handlePlay = (track) => {
-    console.log(`Reproduzindo: ${track.title}`)
-  }
-
+export default function Home() {
   return (
-    <div className="home">
-      <h1>Bem-vindo ao Clonefy</h1>
-      <h3>Descubra suas músicas favoritas</h3>
-      <TrackList tracks={songs} onPlay={handlePlay} />
+    <div className="home-container">
+      <Sidebar />
+      <div className="main-content">
+        <Header />
+        <Content />
+        <Footer />
+      </div>
     </div>
-  )
+  );
 }
-
-export default Home

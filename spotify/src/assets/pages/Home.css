@@ -1,9 +1,10 @@
-.home h1 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
+.home-container {
+  display: flex;
+  height: 100vh;
 }
 
-.home h3 {
-  color: #b3b3b3;
-  margin-bottom: 20px;
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }

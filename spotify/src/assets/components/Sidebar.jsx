@@ -1,31 +1,24 @@
-import { Link } from 'react-router-dom'
-import { FaHome, FaSearch, FaBook } from 'react-icons/fa'
-import "./Sidebar.css";
-import TelaCheia from './TelaCheia.jsx';
+import './Sidebar.css';
 
-function Sidebar() {
+export default function Sidebar() {
   return (
-    <div className="sidebar">
-      <h2>Clonefy</h2>
+    <aside className="sidebar">
+      <h2>Spotify</h2>
       <nav>
-        <Link to="/" className="sidebar-link">
-          <FaHome className="sidebar-icon" />
-          Home
-        </Link>
-        <Link to="/search" className="sidebar-link">
-          <FaSearch className="sidebar-icon" />
-          Buscar
-        </Link>
-        <Link to="/library" className="sidebar-link">
-          <FaBook className="sidebar-icon" />
-          Sua Biblioteca
-        </Link>
-        <button>
-          <TelaCheia />
-        </button>
+        <ul>
+          <li>🏠 Início</li>
+          <li>🔍 Buscar</li>
+          <li>📚 Sua Biblioteca</li>
+        </ul>
       </nav>
-    </div>
-  )
+      <div className="playlist">
+        <h3>Playlists</h3>
+        <ul>
+          <li>🎵 Rock</li>
+          <li>🎶 Chill</li>
+          <li>🎧 Estudo</li>
+        </ul>
+      </div>
+    </aside>
+  );
 }
-
-export default Sidebar

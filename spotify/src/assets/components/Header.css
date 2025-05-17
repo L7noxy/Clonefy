@@ -1,0 +1,15 @@
+.header {
+  padding: 20px;
+  background-color: #282828;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header input {
+  padding: 8px;
+  width: 300px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
