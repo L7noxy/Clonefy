@@ -14,8 +14,13 @@
 
 .card {
   background-color: #333;
-  padding: 20px;
+  padding: 10px;
   border-radius: 8px;
-  width: 150px;
+  width: 120px;
   text-align: center;
+}
+
+.card img {
+  background-position: center;
+  height: 100px;
 }
