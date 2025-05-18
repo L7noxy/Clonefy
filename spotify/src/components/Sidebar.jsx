@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './Sidebar.css';
 
 export default function Sidebar() {
@@ -8,7 +9,7 @@ export default function Sidebar() {
         <ul>
           <li>🏠 Início</li>
           <li>🔍 Buscar</li>
-          <li>📚 Sua Biblioteca</li>
+          <Link to={"/library"}>📚 Sua Biblioteca</Link>
         </ul>
       </nav>
       <div className="playlist">

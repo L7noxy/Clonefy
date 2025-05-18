@@ -38,5 +38,5 @@
 }
 
 .descricao-musica span:hover {
-  text-decoration: underline;
+  text-decoration: underline 0.5px;
 }
