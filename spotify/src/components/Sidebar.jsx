@@ -4,7 +4,7 @@ import './Sidebar.css';
 export default function Sidebar() {
   return (
     <aside className="sidebar">
-      <h2>Spotify</h2>
+      <h2>Clonefy</h2>
       <nav>
         <ul>
           <li>🏠 Início</li>
