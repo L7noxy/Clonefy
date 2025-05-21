@@ -7,4 +7,5 @@ export default function Header() {
       <div className="profile">👤 Perfil</div>
     </header>
   );
-}
+} 
+
