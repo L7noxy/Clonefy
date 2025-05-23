@@ -3,7 +3,10 @@ import { LuSquareLibrary } from "react-icons/lu";
 import { HiMiniMagnifyingGlass } from "react-icons/hi2";
 import { IoIosMusicalNotes } from "react-icons/io";
 import { GiMusicalNotes } from "react-icons/gi";
-import { FaHeadphonesAlt } from "react-icons/fa";
+
+
+
+
 import { TiHome } from "react-icons/ti";
 
 import './Sidebar.css';
@@ -24,7 +27,7 @@ export default function Sidebar() {
         <ul>
           <Link><IoIosMusicalNotes /> Rock</Link>
           <Link><GiMusicalNotes /> Chill</Link>
-          <Link><FaHeadphonesAlt /> Estudo</Link>
+          <Link>🎧 Estudo</Link>
         </ul>
       </div>
     </aside>
