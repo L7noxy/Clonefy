@@ -10,18 +10,22 @@
   margin-bottom: 20px;
 }
 
-.sidebar ul {
-  list-style: none;
+.sidebar a {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.sidebar li {
+.sidebar a {
   margin: 10px 0;
+  display: flex;
+  gap: 20px;
   cursor: pointer;
   padding: 5px;
   transition: 0.3s;
 }
 
-.sidebar li:hover {
+.sidebar a:hover {
   background-color: #1db954;
   border-radius: 5px;
   padding: 7px;
@@ -33,4 +37,3 @@ a {
   color: white;
   cursor: pointer;
 }
-
