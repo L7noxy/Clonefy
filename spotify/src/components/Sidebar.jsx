@@ -14,7 +14,7 @@ export default function Sidebar() {
       <h2>Clonefy</h2>
       <nav>
         <ul>
-          <Link><TiHome /> Início</Link>
+          <Link to={"/"}><TiHome /> Início</Link>
           <Link><HiMiniMagnifyingGlass /> Buscar</Link>
           <Link to={"/library"}><LuSquareLibrary /> Sua Biblioteca</Link>
         </ul>
@@ -24,7 +24,7 @@ export default function Sidebar() {
         <ul>
           <Link><IoIosMusicalNotes /> Rock</Link>
           <Link><GiMusicalNotes /> Chill</Link>
-          <Link><FaHeadphonesSimple /> Estudo</Link>
+          <Link to={"/estudos"}><FaHeadphonesSimple /> Estudo</Link>
         </ul>
       </div>
     </div>
