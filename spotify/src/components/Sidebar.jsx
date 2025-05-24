@@ -3,17 +3,14 @@ import { LuSquareLibrary } from "react-icons/lu";
 import { HiMiniMagnifyingGlass } from "react-icons/hi2";
 import { IoIosMusicalNotes } from "react-icons/io";
 import { GiMusicalNotes } from "react-icons/gi";
-
-
-
-
+import { FaHeadphonesSimple } from "react-icons/fa6";
 import { TiHome } from "react-icons/ti";
 
 import './Sidebar.css';
 
 export default function Sidebar() {
   return (
-    <aside className="sidebar">
+    <div className="sidebar">
       <h2>Clonefy</h2>
       <nav>
         <ul>
@@ -27,9 +24,9 @@ export default function Sidebar() {
         <ul>
           <Link><IoIosMusicalNotes /> Rock</Link>
           <Link><GiMusicalNotes /> Chill</Link>
-          <Link>🎧 Estudo</Link>
+          <Link><FaHeadphonesSimple /> Estudo</Link>
         </ul>
       </div>
-    </aside>
+    </div>
   );
 }
