@@ -29,6 +29,14 @@ export default function Content() {
             </span>
           </div>
         </div>
+        <div className="card">
+          <img src="./img/tecca.jpg" alt="" srcset="" />
+          <div className='descricao-musica'>
+            <span>
+             We Love You Tecca
+            </span>
+          </div>
+        </div>  
       </div>
     </section>
   );

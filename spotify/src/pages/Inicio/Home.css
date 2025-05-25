@@ -9,10 +9,10 @@
 .home-container 
 {
   background-color: black;
-  padding: 20px;
+  padding: 10px;
   display: flex;
   height: 100vh;
-  gap: 20px;
+  gap: 10px;
 }
 
 .main-content {
