@@ -1,8 +1,9 @@
 .sidebar {
   width: 240px;
-  background-color: #000;
+  background-color: #181818;
   padding: 20px;
   color: white;
+  border-radius: 10px;
 }
 
 .sidebar h2 {

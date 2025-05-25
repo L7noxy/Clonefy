@@ -6,9 +6,13 @@
 
 }
 
-.home-container {
+.home-container 
+{
+  background-color: black;
+  padding: 20px;
   display: flex;
   height: 100vh;
+  gap: 20px;
 }
 
 .main-content {
