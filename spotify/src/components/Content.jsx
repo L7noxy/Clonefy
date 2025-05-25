@@ -16,9 +16,12 @@ export default function Content() {
         <div className="card">
           <img src="./img/juice.jpg" alt="" />
           <div className='descricao-musica'>
-            <span>
+            <h4>
               juice WRDL
-            </span>
+              <span>
+                
+              </span>
+            </h4>
           </div>
         </div>
         <div className="card">
