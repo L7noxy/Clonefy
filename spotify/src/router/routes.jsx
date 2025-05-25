@@ -12,8 +12,6 @@ const router = createBrowserRouter([
     { path: "/estudos", element: <Estudos /> },
     { path: "/playlist", element: <Playlist /> },
 
-
-
 ])
 
 export default router;

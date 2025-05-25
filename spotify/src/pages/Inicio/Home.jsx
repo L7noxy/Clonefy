@@ -4,7 +4,7 @@ import Content from '../../components/Content';
 import Footer from '../../components/Footer';
 import './Home.css';
 
-export default function Home() {
+export default function Home({nome}) {
   return (
     <div className="home-container">
       <Sidebar />
