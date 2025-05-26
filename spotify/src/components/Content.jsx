@@ -1,3 +1,4 @@
+import { IoIosPlay } from "react-icons/io";
 import './Content.css';
 import './Playlist'
 
@@ -14,7 +15,7 @@ export default function () {
             </h3>
             <h5>
               Travis Scott
-            </h5>
+            </h5><button className="ouvir-musica"><IoIosPlay color="white" size={30}/></button>
           </div>
         </div>
       </div>
