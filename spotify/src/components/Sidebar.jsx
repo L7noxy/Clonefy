@@ -15,7 +15,7 @@ export default function Sidebar() {
       <h2>Clonefy</h2>
       <nav>
         <ul>
-          <Link to={"/playlist"}><FaCirclePlus /></Link>
+          <Link to={"/playlist"} className='playlist-link'><FaCirclePlus /></Link>
           <Link to={"/"}><TiHome /> Início</Link>
           <Link><HiMiniMagnifyingGlass /> Buscar</Link>
           <Link to={"/library"}><LuSquareLibrary /> Sua Biblioteca</Link>

@@ -1,6 +1,7 @@
 import './Content.css';
+import './Playlist'
 
-export default function Content() {
+export default function Content({ nome }) {
   return (
     <section className="content">
       <h2>Boa noite</h2>
@@ -9,37 +10,10 @@ export default function Content() {
           <img src="./img/scotts.jpg" alt="" />
           <div className='descricao-musica'>
             <span>
-              The Scotts
+              {nome}
             </span>
           </div>
-        </div>
-        <div className="card">
-          <img src="./img/juice.jpg" alt="" />
-          <div className='descricao-musica'>
-            <h4>
-              juice WRDL
-              <span>
-                
-              </span>
-            </h4>
-          </div>
-        </div>
-        <div className="card">
-          <img src="./img/eminem.jpg" alt="" srcset="" />
-          <div className='descricao-musica'>
-            <span>
-              Eminem
-            </span>
-          </div>
-        </div>
-        <div className="card">
-          <img src="./img/tecca.jpg" alt="" srcset="" />
-          <div className='descricao-musica'>
-            <span>
-             We Love You Tecca
-            </span>
-          </div>
-        </div>  
+        </div> 
       </div>
     </section>
   );

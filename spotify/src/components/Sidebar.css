@@ -1,43 +1,57 @@
 .sidebar {
   width: 240px;
-  background-color: #181818;
-  padding: 20px;
+  height: 100vh;
+  background-color: #121212;
   color: white;
-  border-radius: 10px;
-}
-
-.sidebar h2 {
-  color: #1db954;
-  margin-bottom: 20px;
-}
-
-.sidebar a {
+  padding: 20px;
+  box-sizing: border-box;
   display: flex;
-  justify-content: center;
   flex-direction: column;
 }
 
-.sidebar a {
-  margin: 10px 0;
+.sidebar h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: #1db954;
+}
+
+.sidebar nav ul,
+.sidebar .playlist ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
   display: flex;
-  gap: 20px;
-  cursor: pointer;
-  padding: 5px;
-  transition: 0.3s; 
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sidebar a {
+  color: #b3b3b3;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 16px;
+  padding: 8px;
+  border-radius: 4px;
 }
 
 .sidebar a:hover {
-  background-color: #1db954;
-  border-radius: 5px;
-  padding: 7px;
-  margin-left: 10px;
+  color: white;
+  background-color: #282828;
 }
 
-a {
-  text-decoration: none;
-  color: white;
-  cursor: pointer;
+.sidebar .playlist {
+  margin-top: 40px;
+}
 
-  color: white;
-  cursor: pointer;
+.sidebar .playlist h3 {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #ffffffcc;
+}
+
+.playlist-link{
+  display: flex;
+  justify-content: end;
 }
