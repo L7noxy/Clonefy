@@ -1,12 +1,19 @@
 .sidebar {
   width: 240px;
-  height: 100vh;
+  height: 97vh;
   background-color: #121212;
   color: white;
-  padding: 20px;
+  padding: 10px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  border-radius: 10px;
+}
+
+.titulo-sidebar{
+  display: flex;
+  text-align: center;
+  justify-content: center;
 }
 
 .sidebar h2 {
