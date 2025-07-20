@@ -18,7 +18,7 @@ export default function Sidebar() {
       </div>
       <nav>
         <ul>
-          <Link to={"/playlist"} className='playlist-link'><FaCirclePlus /></Link>
+          <Link to={"/playlist"} className='playlist-link'><FaCirclePlus /> Criar Playlist</Link>
           <Link to={"/"}><TiHome /> Início</Link>
           <Link><HiMiniMagnifyingGlass /> Buscar</Link>
           <Link to={"/library"}><LuSquareLibrary /> Sua Biblioteca</Link>
