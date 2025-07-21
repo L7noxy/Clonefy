@@ -2,10 +2,12 @@ import { useState } from 'react';
 
 import './Playlist.css'
 
-export default function 
-  () {
-    
-    const [nome, setNome] = useState("");
+export default function() {
+  function salvar() {
+    console.log('salvou')
+  }
+
+  const [nome, setNome] = useState("");
   return (
     <div>
       <h2>Coloque o nome da musica</h2>
@@ -19,6 +21,8 @@ export default function
       {nome && (
         <h3>Nome da musica: {nome}</h3>
       )}
+
+      <button onClick={salvar}>Salvar</button>
     </div>
   )
 }
