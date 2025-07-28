@@ -10,7 +10,7 @@ export default function() {
   const [nome, setNome] = useState("");
   return (
     <div>
-      <h2>Coloque o nome da musica</h2>
+      <h2>Coloque o nome da sua playlist</h2>
       <input
         type="text"
         value={nome}
