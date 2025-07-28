@@ -1,0 +1,135 @@
+
+/* CONTEÚDO PRINCIPAL */
+.main-content {
+  flex: 1;
+  background: linear-gradient(to bottom, #333, #121212);
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.playlist-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.playlist-header .cover {
+  width: 200px;
+  height: 200px;
+  background-color: #2a2a2a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  color: #aaa;
+}
+
+.playlist-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.playlist-info h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.playlist-info span {
+  font-size: 14px;
+  color: #aaa;
+  margin-top: 5px;
+}
+
+/* ÁREA DE BUSCA */
+.search-area {
+  margin-top: 40px;
+  background-color: #2a2a2a;
+  border-radius: 6px;
+  padding: 16px;
+}
+
+.search-area input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 4px;
+  border: none;
+  background-color: #1e1e1e;
+  color: white;
+  font-size: 16px;
+}
+
+/* SEÇÃO DIREITA (música atual ou sugestões) */
+.right-section {
+  width: 300px;
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-left: 1px solid #333;
+}
+
+.right-section .track-cover {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.right-section .track-title {
+  font-size: 20px;
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+.right-section .artist {
+  font-size: 14px;
+  color: #aaa;
+}
+
+/* PLAYER */
+.player {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #181818;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.player .track-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.player .track-info img {
+  width: 56px;
+  height: 56px;
+  border-radius: 4px;
+}
+
+.player .track-info .title {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.player .track-info .artist {
+  font-size: 12px;
+  color: #aaa;
+}
+
+.player-controls {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.player-controls button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
