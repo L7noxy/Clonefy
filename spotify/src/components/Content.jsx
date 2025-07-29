@@ -1,6 +1,6 @@
 import { IoIosPlay } from "react-icons/io";
 import './Content.css';
-import './Playlist'
+import '../pages/Playlist/Playlist'
 
 export default function () {
   return (
