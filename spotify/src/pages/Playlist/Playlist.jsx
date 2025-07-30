@@ -10,7 +10,6 @@ export default function () {
   const [nome, setNome] = useState("");
   return (
     <div>
-      {/* Seção da Direita */}
       <aside className="right-section">
         <img
           className="track-cover"
