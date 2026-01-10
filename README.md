@@ -87,4 +87,11 @@ Sinta-se à vontade para:
 
   - ⭐ Sistema de favoritos
 
-⭐ Se esse repositorio foi util para você, não se esqueça de deixar uma estrelinha para ajudar
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por  
+**Gabriel da Cunha Castanhel**
+
+⭐ Se este projeto te ajudou ou te inspirou, considere deixar uma estrela!
