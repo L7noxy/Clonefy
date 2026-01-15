@@ -39,18 +39,12 @@ const userSchema = new mongoose.Schema(
       type: Date,
       default: Date.now,
     },
-
-    conhecimento: {
-      type: String,
-      required: false,
-    },
   },
   {
     timestamps: true,
   }
 );
 
-// Hash antes de salvar
 userSchema.pre("save", async function (next) {
   if (!this.isModified("senha")) return next();
   this.senha = await bcrypt.hash(this.senha, 10);

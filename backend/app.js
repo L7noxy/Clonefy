@@ -3,8 +3,9 @@ import cors from "cors";
 import MongoStore from "connect-mongo";
 import session from "express-session";
 
-import userRoutes from "./routes/user.routes.js";
-import adminRoutes from "./routes/admin.routes.js";
+import userRoutes from "./src/routes/user.routes.js";
+import adminRoutes from "./src/routes/adm.routes.js";
+
 const app = express();
 
 app.use(cors({

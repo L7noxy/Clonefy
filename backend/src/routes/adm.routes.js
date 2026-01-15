@@ -1,8 +1,7 @@
 import { Router } from "express";
 import bcrypt from "bcrypt";
-import User from "../../Modules/User/user.schema.js";
-import { verificarAdmin } from "../../middlewares/auth.js";
-
+import User from "../modules/User/user.schema.js";
+import { verificarAdmin } from "../middlewares/auth.js";
 const router = Router();
 
 // LOGIN ADMIN

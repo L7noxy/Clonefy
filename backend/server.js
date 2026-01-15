@@ -4,7 +4,7 @@ import morgan from "morgan";
 import logger from "./src/config/logger.js";
 import mongoose from "mongoose";
 import app from "./app.js";
-import connectDB from "./Config/database.js";
+import connectDB from "./src/Config/database.js";
 
 const PORT = process.env.PORT || 3000;
 
